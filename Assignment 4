@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 4</title>
+    <style>
+        div {
+            padding-left: 200px;
+        }
+
+        ol {
+            padding-left: 0;
+            padding-right: 0;
+            list-style-position: inside;
+        }
+    .laparent ol { counter-reset: item }
+    .laparent li { display: block ; counter-increment: item; }
+    .laparent li:before { content: " (" counter(item,lower-alpha) ") "; }
+    </style>
+</head>
+
+<body>
+    <h3 align="center"><u>MODEL QUSTION PAPER FOR SUMMATIVE TEST - II</u></h3>
+    <h3 align="center"><U>MATHEMATICS</U></h3>
+    <h3 align="center"><u>CLASS-VIII</u></h3>
+    <div>
+        <h5>Maximum Marks: 20</h5>
+        <h4><b>General instruction:</b></h4>
+        <ol>
+            <li>All questions are compulsory</li>
+            <li>The question paper consist of 7 questions dividedin to 2 sections A and B </li>
+            <li>Section A contains 4 Questions of 2 marks each</li>
+            <li>Section B contains 3 Qustions of 4 mark each</li>
+        </ol>
+    </div>
+    <h3 align="center"><b><u>SECTION A</u></b></h3>
+    <div>
+        <p>Q1- What will be the product of (a<sup>2</sup>) x (2a<sup>22</sup>) x (4a<sup>26</sup>)</p>
+        <ol style="list-style-type: lower-alpha;" class="laparent">
+            <li>8a<sup>46</sup></li>
+            <li>8a<sup>48</sup></li>
+            <li>68<sup>50</sup></li>
+            <li>8a<sup>50</sup></li>
+        </ol>
+        <p>Q2- Water is oxidised to oxygen by</p>
+        <ol style="list-style-type: lower-alpha;" class="laparent">
+            <li>H<sub>2</sub>O<sub>2</sub></li>
+            <li>KMnO<sub>4</sub></li>
+            <li>CIO<sub>2</sub></li>
+            <li>Fluorine</li>
+        </ol>
+    </div>
+    <p align="center"><del> Cutting is Not Allowed</del> Select Only one Option</p>
+
+</body>
+
+</html>
