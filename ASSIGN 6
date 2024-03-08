@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ASSIGNMENT 6</title>
+    <style>
+        table {
+            border: 2px solid black;
+            width: 800px;
+            height: 500px;
+            margin: auto;
+        }
+
+        th {
+            height: 50px;
+            font-weight: bolder;
+            font-size: 1.5em;
+        }
+
+        #myForm {
+            position: fixed;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 20px;
+            z-index: 999;
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="myForm" action="Success.html">
+        <table border="1">
+            <tr align="center">
+                <th colspan="2">
+                    <font size="10">Registration Form</font>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <label>Student Name:</label>
+                </td>
+                <td> <input type="text" name="StudentName" value="" placeholder="StudentName" required></td>
+            </tr>
+            <tr>
+                <td> <label>Father's Name:</label></td>
+                <td><input type="text" name="Father's Name" value="" placeholder="father's name" required></td>
+            </tr>
+            <tr>
+                <td><label>mother's Name:</label></td>
+                <td><input type="text" name="mother's Name" value="" placeholder="mother's name" required></td>
+            </tr>
+            <tr>
+                <td><label>Date Of Birth:</label></td>
+                <td> <input type="date" value="" required></td>
+            </tr>
+            <tr>
+                <td><label>Gender:</label></td>
+                <td> <input type="radio" name="Gender" value="male">Male
+                    <input type="radio" name="Gender" value="female">Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable>EmailID:</lable>
+                </td>
+                <td><input type="email" name="EmailID" value="" placeholder="EmailID" required></td>
+            </tr>
+            <tr>
+                <td><label>Mobile Number:</label></td>
+                <td><input type="number" name="Mobile Number" value="" placeholder="Mobile Number" required></td>
+            </tr>
+            <tr>
+                <td><label>Address:</label></td>
+                <td> <textarea rows="3" cols="20" placeholder="Address"></textarea></td>
+            </tr>
+            <tr>
+                <td><label>State</label></td>
+                <td><input type="text" name="State" value="" placeholder="State" required></td>
+            </tr>
+            <tr>
+                <td><label>City</label></td>
+                <td><input type="text" name="City" value="" placeholder="City" required></td>
+            </tr>
+            <tr aria-colspan="2">
+                <td></td>
+                <td>
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>
