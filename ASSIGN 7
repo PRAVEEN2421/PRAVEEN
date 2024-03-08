@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1><b>Input/Output Devices</b></h1>
+    <dt>Mouse</dt>
+    <dd>Mouse is input device and also known as pointing devices</dd>
+      <dt>Printer</dt>
+    <dd>Printer is Output device which provide hard copy of Output</dd>
+    <dt>Moniter</dt>
+    <dd>Monitor is Output device ehich provide soft copy of Output</dd>
+</body>
+</html>
