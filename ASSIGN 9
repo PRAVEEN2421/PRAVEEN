@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 9</title>
+  <style>
+    table {
+      height: 250px;
+      width: 850px;
+    }
+
+    td {
+      text-align: left;
+    }
+    caption{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 20px;
+    }
+    th{
+      text-align: center;
+      background-color: rgb(248, 232, 1);
+    }
+  </style>
+</head>
+
+<body>
+  <table align="center" border="1">
+    <caption>BASIC COURSE</caption><br>
+    <tr>
+      <th> SI No.</th>
+      <th>Course Name</th>
+      <th>Fees</th>
+      <th>Duration</th>
+      <th>Eligibility</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>CCC- Course on Computer Concept</td>
+      <td>2000</td>
+      <td>3 Months</td>
+      <td>10<sup>th</sup></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>CCA-Course on Computer Application</td>
+      <td>2000</td>
+      <td>3 Months</td>
+      <td>10<sup>th</sup></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Tally</td>
+      <td>3000</td>
+      <td>3 Months</td>
+      <td>10<sup>th</sup></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>O Level</td>
+      <td>15,000</td>
+      <td>1 Year</td>
+      <td>12<sup>th</sup></td>
+    </tr>
+
+  </table>
+
+</body>
+
+</html>
