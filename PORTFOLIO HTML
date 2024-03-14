@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">PORTFOLIO.</a>
+
+        <nav class="navebar">
+            <a href="#" class="active">Home</a>
+            <a href="#">About Me</a>
+            <a href="#">Contact</a>
+            <a href="#">Skill's</a>
+        </nav>
+
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm PRAVEEN </h1>
+            <h3>Full Stock Developer</h3>
+            <p>Gud Morning Mam, First of all, thank you for giving me this opportunity to introduce My Self.
+                My name is Praveen Raj. I am from sivagangai. I have completed my diploma in mechanical engineering from 
+                J Groups polytechnic college alangudi. My strength are I am self motivating person and I have strong 
+                communication skill also. my shortn term goal is to get a job in a reputed company and long term hole is to 
+                achieve a good position like yours. Where i can build my career and help the organization too.
+            </p>
+            <div class="btn-box">
+                <a href="#">Hire Me</a>
+                <a href="#">Let's Talk</a>
+            </div>
+          
+                <div class="home-sci">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-gmail'></i></a>
+                </div>
+         
+
+    </section>
+
+</body>
+
+</html>
